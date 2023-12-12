@@ -1,0 +1,139 @@
+* {
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    list-style: none;
+    text-decoration: none;
+
+}
+body{
+    background-image: url(wallpaper.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     min-width: 100%;
+}
+.logo img{
+    width: 50px;
+    height: 50px;
+    margin: 30px 80px;
+
+}
+.menu ul{
+    display: flex;
+}
+.menu ul li{
+    padding: 0 25px;
+}
+.menu ul li a{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #fff;
+}
+.menu ul li a:hover {
+    color: #d80e64;
+}
+.sign in button{
+    background: transparent;
+    width: 100px;
+    height: 50px;
+    padding:0 20px;
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #fff;
+    margin: 0 70px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.popup{
+    background: rgb(255, 255, 255,0.5);
+    width: 95px;
+    margin: 0 35px;
+    height: 500px;
+    visibility: hidden;
+}
+.popup.active{
+    visibility: visible;
+}
+.container{
+    display: flex;
+}
+.clk{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-direction: column;
+    height: 500;
+    width: 900px;
+    background-image: url(wallpaper-web.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.cik h1{
+    font-size: 2rem;
+    margin: 40px 20px;
+    color: #fff;
+    font-size: 600;
+    outline: none;
+}
+.cik h5{
+    font-size: 1.5;
+    font-weight: 300;
+    color: rgb(255, 255, 255,0.5);
+    margin: 20px;
+}
+.cik button{
+    height: 40;
+    width: 200px;
+    padding: 0 70px;
+    margin: 20px 30px;
+    background: #d80e64;
+    color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 5 px;
+    cursor: pointer;
+}
+.create{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    width: 20px 0;
+}
+.create h1{
+    margin: 20px 0;
+}
+.create .inpt{
+display: flex;
+flex-direction: column;
+width: 70px;
+}
+.create.inpt input{
+    margin: 5px;
+    padding: 15px;
+    outline: none;
+    border: 1px solid #280b55;
+    color: #280b55;
+    border-radius: 20px;
+}
+.btn{
+    width: 70px;
+    margin: 15;
+    padding: 15px 0;
+    background: #280b55;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.create h6{
+    margin: 20px;
+    color: #d80e64;
+    cursor: pointer;
+    font-size: 600;
+}
